@@ -1,0 +1,38 @@
+{
+  "name": "ffwd-tasks",
+  "version": "0.0.1",
+  "keywords": [
+    "ffwd-feature",
+    "task",
+    "runner",
+    "task-runner",
+    "grunt"
+  ],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ffwdjs/ffwd-tasks.git"
+  },
+  "ffwd": {
+    "scriptsCompiler": "browserify",
+    "stylesCompiler": "none",
+    "dist": "dist",
+    "client": "client"
+  },
+  "dependencies": {
+    "ffwd-utils": "git://github.com/ffwdjs/ffwd-utils",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "load-grunt-tasks": "^0.5.0"
+  },
+  "optional": {
+    "ffwd-modeling": "git+ssh://git@github.com:ffwdjs/ffwd-modeling",
+    "ffwd-auth": "git+ssh://git@github.com:ffwdjs/ffwd-auth"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "ffwd-net": "git+ssh://git@github.com:ffwdjs/ffwd-net",
+    "mocha": "^1.20.1"
+  }
+}
